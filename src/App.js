@@ -6,6 +6,7 @@ import Tasks from './pages/Tasks';
 import Leaderboard from './pages/Leaderboard';
 import Learn from './pages/Learn';
 import Profile from './pages/Profile';
+import Animations from './pages/Animations';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/leaderboard" element={<Layout><Leaderboard /></Layout>} />
         <Route path="/learn" element={<Layout><Learn /></Layout>} />
         <Route path="/profile" element={<Layout><Profile /></Layout>} />
+        <Route path="/animations" element={<Layout><Animations /></Layout>} />
       </Routes>
     </BrowserRouter>
   );
